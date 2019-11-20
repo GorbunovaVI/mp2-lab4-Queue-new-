@@ -2,11 +2,6 @@
 #include "../mp2-4/queue.h"
 #include "gtest/gtest.h"
 
-TEST(TestCaseName, TestName) {
-  EXPECT_EQ(1, 1);
-  EXPECT_TRUE(true);
-}
-
 TEST(Queue, can_create_queue_with_positive_length)
 {
 	ASSERT_NO_THROW(Queue v(5));
